@@ -1,0 +1,7 @@
+include LICENSE
+recursive-include docs *
+recursive-exclude docs *~
+recursive-include test *
+recursive-exclude test *~
+prune docs/_build
+exclude docs/_templates/layout.html
